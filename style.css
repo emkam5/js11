@@ -1,0 +1,68 @@
+/* Стили для всего документа */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0; /* Светлый фон */
+  color: #333; /* Темный текст */
+  margin: 0;
+  padding: 0;
+}
+
+/* Контейнер для контента */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Центрирование контейнера */
+  padding: 20px;
+  background: white; /* Белый фон */
+  border-radius: 10px; /* Закругленные углы */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для отделения */
+}
+
+/* Заголовки */
+h1, h2 {
+  color: #2e6b32; /* Темно-зеленый цвет для заголовков */
+  margin-bottom: 15px;
+}
+
+/* Кнопки */
+button {
+  padding: 12px 25px; /* Отступы кнопки */
+  background-color: #4CAF50; /* Зеленый цвет */
+  color: white; /* Белый текст */
+  border: none; /* Без рамки */
+  border-radius: 5px; /* Закругленные углы */
+  cursor: pointer; /* Указатель курсора */
+  transition: background-color 0.3s ease; /* Плавный переход */
+}
+
+button:hover {
+  background-color: #45a049; /* Темнее при наведении */
+}
+
+/* Карточки */
+.card {
+  background: #fff; /* Фон карточки */
+  border: 1px solid #ddd; /* Светлая рамка */
+  border-radius: 8px; /* Закругленные углы */
+  margin-bottom: 20px; /* Отступы между карточками */
+  padding: 15px; /* Внутренние отступы */
+  transition: transform 0.3s; /* Анимация при наведении */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Подъем карточки при наведении */
+}
+
+/* Формы */
+input[type="text"], input[type="email"], input[type="password"], select {
+  width: 100%; /* Ширина 100% */
+  padding: 10px; /* Внутренние отступы */
+  margin: 8px 0; /* Отступы сверху и снизу */
+  border: 1px solid #ccc; /* Рамка */
+  border-radius: 5px; /* Закругленные углы */
+}
+
+/* Сообщения об ошибках */
+.error {
+  color: red; /* Красный цвет для ошибок */
+  margin-top: 10px;
+}
